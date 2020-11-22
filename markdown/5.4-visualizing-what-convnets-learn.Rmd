@@ -43,7 +43,7 @@ classification problem two sections ago. For the next two methods, we will use t
 
 ## Visualizing intermediate activations
 
-Visualizing intermediate activations consists in displaying the feature maps that are output by various convolution and pooling layers in a 
+Visualizing intermediate activations consists in the displaying the feature maps that are output by various convolution and pooling layers in a 
 network, given a certain input (the output of a layer is often called its "activation", the output of the activation function). This gives 
 a view into how an input is decomposed unto the different filters learned by the network. These feature maps we want to visualize have 3 
 dimensions: width, height, and depth (channels). Each channel encodes relatively independent features, so the proper way to visualize these 
